@@ -46,7 +46,7 @@ class Employee:
         elif self.commissionType == "bonus":
             output += (f" and recieves a bonus commission of {self.contractAmount}")
 
-        output += (f". Their total pay is {self.get_pay()}.")
+        output += (f".  Their total pay is {self.get_pay()}.")
         
         return output
 
