@@ -42,9 +42,9 @@ class Employee:
             output += (f"monthly salary of {self.monthly}")
 
         if self.commissionType == "contract":
-            output += (f" and recieves a commission for {self.landedContract} contract(s) at {self.contractAmount}/contract")
+            output += (f" and receives a commission for {self.landedContract} contract(s) at {self.contractAmount}/contract")
         elif self.commissionType == "bonus":
-            output += (f" and recieves a bonus commission of {self.contractAmount}")
+            output += (f" and receives a bonus commission of {self.contractAmount}")
 
         output += (f".  Their total pay is {self.get_pay()}.")
         
